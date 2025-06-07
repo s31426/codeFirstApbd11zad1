@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace zad1.Models;
 
 public class PrescriptionMedicament
 {
+    [Key]
     public int IdMedicament { get; set; }
     public Medicament Medicament { get; set; }
     
